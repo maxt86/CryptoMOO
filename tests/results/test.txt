@@ -1,0 +1,81 @@
+test modes and padding
+
+
+plain0: b'0123456789abcdef'
+len: 16
+
+plain1: b'........................................'
+len: 40
+
+
+key: 1126fdfac6bbccafd89b4468730c9753
+
+
+mode: ecb
+
+enc0: 37ce0341b5e32fa56770fa028198ee7fd50bc7839eeb71699e9868c03be6b02f0fd5d8bbcc28f0c1ee9f629ce83e1b41
+len: 48 bytes
+
+enc1: 1226174fbd815375060fcdccc6bcf16f3884b5ed2073a2e9cf6d6db3ec20325d3884b5ed2073a2e9cf6d6db3ec20325d1aae23650ab8336dd6bd7a82d59f9323
+len: 64 bytes
+
+dec0: b'0123456789abcdef'
+dec1: b'........................................'
+
+success
+
+
+mode: cbc
+
+enc0: 3330899c1899709522bbc555c2798ee198f13e730ca546621d41a52d959633efcfb10446e57cb20113a4b9eced25351c
+len: 48 bytes
+
+enc1: 2730099480811867bb304b8eb3321ef7bfb628d92f15b0ef34f712329ad42f6ad6ef1f1e403d57b99a8fb47fab0f6d1a42fbe8ea0ec3e6a5df67f94e23da05a1
+len: 64 bytes
+
+dec0: b'0123456789abcdef'
+dec1: b'........................................'
+
+success
+
+
+mode: cfb
+
+enc0: 499c29eec2c0018e70442c30ed5e6083ecdaefdb57ad2c4a3bc7403c51ef78f5095e51a27cba963fad6980c9de55486e
+len: 48 bytes
+
+enc1: 2a942005e487931b9f8470b5ce4ca83063833ec32f951209374659d10b14bb7f9d57103bae9e3cfc97268fe61966feaf2f58e013af1833f5e256df1809600170
+len: 64 bytes
+
+dec0: b'0123456789abcdef'
+dec1: b'........................................'
+
+success
+
+
+mode: ofb
+
+enc0: 5712dc2c30263864cb510cce3241253ebe18703cae78a9be0077c88a75c93004b7d412c1c8b339c1ef3dbfe9b262040c
+len: 48 bytes
+
+enc1: 9e37fcce4face915eb2e3ca02ccbc1716e7a21ff78f449339c9579578589b12fd198433b1fb36e15186ba1045b5c3e5f19b4e5e1b3799bfac3bee49cac42fdb3
+len: 64 bytes
+
+dec0: b'0123456789abcdef'
+dec1: b'........................................'
+
+success
+
+
+mode: ctr
+
+enc0: 88ff07cba8ef0d7f5cdb324000000000e20cd3348238af02362c255c53e2b63d8db6dd0201202c306fc696cd678d8d04
+len: 48 bytes
+
+enc1: 3b9e114e817c408209e0a255000000003294d62eccffbfc85c61cf14ffcf85cef67f30d8856004885a32960a5fd540f119a7d91e8efb06a3a50fe8bcb35245a1
+len: 64 bytes
+
+dec0: b'0123456789abcdef'
+dec1: b'........................................'
+
+success
