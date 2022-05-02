@@ -22,7 +22,7 @@ The API is very simple and contains all the methods needed as follows:
   - ```encrypt(data: bytes, iv: bytes = None) -> bytes``` - encrypt data of arbitrary length
   - ```decrypt(data: bytes, iv: bytes) -> bytes``` - decrypt data of arbitrary length
 
-The methods that are most likely to be looked for in the first place are ```set_mode```, ```set_key```, ```encrypt``` and ```decrypt```.
+The methods that are most likely to be looked for in the first place are ```set_key```, ```set_mode```, ```encrypt``` and ```decrypt```.
 
 ## Sample decryption
 
