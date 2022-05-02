@@ -1,0 +1,16 @@
+test implementation
+
+
+plain0: b'123456789abcdef'
+len: 15
+
+plain1: b'0123456789abcdef'
+len: 16
+
+enc0:      6bea4f08404cf715ce00aca3a83d9d42
+enc0_cmoo: 6bea4f08404cf715ce00aca3a83d9d42
+success
+
+enc1:      e76abd41bc3be87f3b62f66c3737e35fd66658a1f43e3c58d49d9a84ad80fefc
+enc1_cmoo: e76abd41bc3be87f3b62f66c3737e35fd66658a1f43e3c58d49d9a84ad80fefc
+success
